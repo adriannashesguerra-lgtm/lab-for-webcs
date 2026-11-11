@@ -1,0 +1,62 @@
+<!-- this will be used to practice html HEHEHEHEHEHEHE   -->
+<!-- This is a comment -->
+<!-- display hello world -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This is a simple HTML document.</p>
+</body>
+</html>
+
+
+<!-- 
+- <!DOCTYPE html> = This declaration defines the document type and version of HTML. It helps the browser to render the page correctly.
+- <html> = This is the root element of an HTML document. It contains all other elements.
+- lang="en" = This attribute specifies the language of the document. In this case, it's set to English.
+- <head> = This element contains meta-information about the document, such as its title and character encoding.
+    <meta charset="UTF-8"> = This meta tag specifies the character encoding for the document, ensuring that it can display a wide range of characters correctly.
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> = This meta tag is used for responsive web design. It sets the viewport to match the device's width and initial zoom level.
+    <title>Document</title> = This element sets the title of the document, which appears in the browser's title bar or tab.
+
+- <body> = This element contains the content of the document that is visible to users.
+    <h1></h1> = This is a heading element. The number 1 indicates that it is the highest level heading, typically used for main titles.
+    <p></p> = This is a paragraph element, used to group together sentences and text content.
+    <em></em> = This element is used to emphasize text, typically rendering it in italics.
+    <strong></strong> = This element is used to indicate strong importance, typically rendering text in bold.
+    <br> or <br /> = This is a line break element, used to create a new line without starting a new paragraph.
+    <p class="_______"></p> = This is a paragraph element with a class attribute. The class can be used to apply specific CSS styles to this paragraph.
+    <img src="image.jpg" alt="Description of image"> = This is an image element. The "src" attribute specifies the path to the image file, and the "alt" attribute provides alternative text for accessibility.
+    width="100" height="100" = These attributes specify the width and height of an image in pixels. They can be used to control the size of the image displayed on the webpage.
+
+- content = Texts that are displayed on the webpage, such as headings, paragraphs, images, and links.
+- elements = The building blocks of an HTML document, such as headings, paragraphs, images, links, and more. Each element has a specific purpose and can be styled using CSS.
+- attributes = Additional information provided within an HTML element's opening tag that modifies its behavior or appearance. For example, the "src" attribute in an <img> tag specifies the image source.
+
+! + tab or space = This is a shortcut in some code editors (like Visual Studio Code) to quickly generate a basic HTML template. Typing "!" and then pressing tab or space will create a boilerplate HTML structure.
+
+nesting = The practice of placing one HTML element inside another. For example, a <p> element can be nested inside a <div> element. This allows for better organization and structure of the content.
+-->
+
+<!-- sample of a nesting -->
+ <p>This is a paragraph with <em>emphasized text</em> and <strong>strong text</strong> nested inside it.</p>
+
+<!-- wrong nesting format -->
+ <p>This is a paragraph with <em>emphasized text and <strong>strong text</em> nested inside it.</p></strong>
+
+<!-- using <br>/<br /> -->
+ <p>
+    This is a paragraph that will use br <br /> like this to create a new line without starting a new paragraph. <br />
+    This is the second line of the paragraph after the line break.
+ </p>
+
+<!-- using attribute -->
+ <p class="my-paragraph">This is a paragraph with a class attribute. The class can be used to apply CSS styles to this specific paragraph.</p>
+
+<!-- using img -->
+ <img src="https://jujutsu-kaisen.fandom.com/wiki/Satoru_Gojo" alt="Gojo Satoru" width="300" height="200">
